@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample data</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% for (i = 0; i < data.records.length; i++) { %>
+      <% for (j = 0; j < people.records.length; j++) {
+          if (people.records[j].id == data.records[i].fields["Made by"]) { %>
+          <h2><%= people.records[i].fields["Grad name"] %></h2>
+        <% }
+      } %>
+      <p><%= data.records[i].fields.Pitch %></p>
+    <% } %>
+  </body>
+</html>
+
+<!-- For some reason the names don't seem to be correct....-->

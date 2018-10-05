@@ -62,3 +62,7 @@ typings/
 
 # macOS garbage
 .DS_Store
+
+# Sensitive info
+Oct\ 05/people.json
+Oct\ 05/sample_data.json
