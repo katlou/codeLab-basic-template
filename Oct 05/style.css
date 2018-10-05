@@ -1,0 +1,12 @@
+h1, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+}
